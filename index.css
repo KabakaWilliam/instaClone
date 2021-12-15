@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   background-color: #fafafa;
 }
 nav {
@@ -96,10 +96,12 @@ main {
   /* width: 600px; */
   width: 62%;
   justify-content: flex-start;
+  margin-bottom: 24px;
+  padding: 16px;
 }
 
 .storiesContainer {
-  padding: 16px;
+  /* padding: 16px; */
   display: flex;
   justify-content: flex-start;
   width: 100%;
@@ -112,4 +114,27 @@ main {
 .perfonalInfoWrapper {
   display: flex;
   width: 300px;
+}
+
+.postWrapper {
+  width: 62%;
+  height: 876px;
+  /* border: 1px solid #dbdbdb; */
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 30px;
+}
+
+.Post {
+  width: 100%;
+  height: 876px;
+  border: 1px solid #dbdbdb;
+}
+
+/* 617 876 */
+
+@media (max-width: 600px) {
+  .center {
+    display: none;
+  }
 }
