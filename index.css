@@ -130,6 +130,7 @@ image {
   height: 876px;
   border: 1px solid #dbdbdb;
   box-sizing: border-box;
+  display: flex;
 }
 
 .top {
